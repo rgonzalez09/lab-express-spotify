@@ -1,0 +1,55 @@
+body {
+  background-image: url("/images/spotify-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 500px;
+  left: 40%;
+  right: 600px;
+}
+button {
+  width: 150px;
+  margin-left: 13px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.artistcontainer {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.resultcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #4e4e4e;
+  width: 250px;
+  margin-left: 10px;
+}
+.albumart {
+  width: 250px;
+  height: 250px;
+  margin-top: -16px;
+}
+.resultcardbottomref {
+  text-align: center;
+  margin-top: -18px;
+  text-decoration: none;
+}
+.resultcardbottom {
+  text-align: center;
+  margin-top: -18px;
+}
